@@ -4,13 +4,11 @@ body {
     padding: 0;
     color: white;
 
-    /* Background image */
-    background-image: url('https://wallpapercave.com/wp/wp6604701.jpg');
+    background-image: url(image.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-/* Header */
 header {
     background: rgba(0, 0, 0, 0.6);
     padding: 20px;
@@ -21,7 +19,6 @@ h1, h2 {
     text-shadow: 2px 2px 4px black;
 }
 
-/* Content Box */
 .content {
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
@@ -29,14 +26,12 @@ h1, h2 {
     border-radius: 10px;
 }
 
-/* Images */
 img {
     width: 300px;
     border-radius: 10px;
     margin: 10px;
 }
 
-/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -52,7 +47,6 @@ th, td {
     text-align: center;
 }
 
-/* Button */
 .btn {
     display: inline-block;
     background: gold;
